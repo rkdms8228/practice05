@@ -38,5 +38,12 @@ public class Print {
 	}
 	
 	//메소드-일반
+	public void print() {
+		System.out.println(num);
+		System.out.println(fact);
+		System.out.println(lowNum);
+		System.out.println(name);
+		
+	}
 	
 }

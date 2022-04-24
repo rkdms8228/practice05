@@ -16,10 +16,17 @@ public class PrintApp {
 		Print name = new Print();
 		name.setName("홍길동");
 		
+		/*
 		System.out.println(point.getNum());
 		System.out.println(result.getFact());
 		System.out.println(lowPoint.getLowNum());
 		System.out.println(name.getName());
+		*/
+		
+		point.print();
+		result.print();
+		lowPoint.print();
+		name.print();
 
 	}
 

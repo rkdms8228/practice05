@@ -16,11 +16,19 @@ public class Account {
 	}
 	
 	//필요한 메소드 작성
+	//gs
+	public String getAccountNo() {
+		return accountNo;
+	}
+
+	public void setAccountNo(String accountNo) {
+		this.accountNo = accountNo;
+	}
+	
 	//일반
 	public void deposit(int money) {
 		sum = money;
 	}
-	
 
 	public void withdraw(int money) {
 		balance = sum-money;
